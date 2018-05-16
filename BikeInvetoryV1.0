@@ -5,7 +5,6 @@ import random
 import os
 import time
 import sqlite3
-#2d list? bike_list = [[tag, sn, model, brand],[tag, sn, model, brand],[tag, sn, model, brand],[....],[.....]]
 
 bike_list = []
 bike = []
@@ -15,8 +14,9 @@ sold_bikes = []
 bikeDatabase = sqlite3.connect('Bikes.db')
 pointer = bikeDatabase.cursor()
 
-#selectAll = pointer.execute("""SELECT * FROM bikes """)
 ### FIXME
+''' count all rows (bikes) in the database and return a total.  '''
+#selectAll = pointer.execute("""SELECT * FROM bikes """)
 #dataBaseSize = len(selectAll.fetchall())
 
 
@@ -38,7 +38,7 @@ def disp2d(array):
 	if (len(array) == 0):
 		print ('(Empty)\n')
 	else:
-		for i in range (len(array)):
+		for i in range (len(array)): # go through a 2 dimentional array and display a table 
 			print(i+1, end=')\t')
 			for j in range (len(array[0])):
 				print(array[i][j], end='\t')
@@ -51,13 +51,9 @@ def disp1d(array):
 	if (len(array) == 0):
 		print ('(Empty)\n')
 	else:
-
-
-		for j in range (len(array[0])):
+		for j in range (len(array[0])): # display 1 dimentioanl Array on a one collum table
 			print(array[j])
 		print()
-
-
 
 
 def creatSqlTable ():
