@@ -2,8 +2,8 @@
 # Reworking #
 #############
 
-# this was a early project that went no where due to in expiriance. I was just starting to my academic career into computer science seriously. There is a plan to redo this project # on django. 
-
+This was a early project that went no where due to in expiriance. I was just starting to my academic career into computer science seriously. 
+There is a plan to redo this project on Django or on Visual Basics or both.
 
 ################
 # Ignore below #
