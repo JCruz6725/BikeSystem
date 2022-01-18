@@ -1,3 +1,14 @@
+#############
+# Reworking #
+#############
+
+# this was a early project that went no where due to in expiriance. I was just starting to my academic career into computer science seriously. There is a plan to redo this project # on django. 
+
+
+################
+# Ignore below #
+################
+
 # Portfolio
 # This Repository is for my portfolio to be link with my resume.
 
